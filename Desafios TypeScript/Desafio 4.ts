@@ -191,7 +191,7 @@ class  HttpClient  {
       <button id="search-button">Pesquisar Filme</button>
   </div>
 </div>*/ }
-/*-------------------------------*/
+/*------------AINDA EXISTEM BUGS Logo enviarei versão final-------------------*/
 var apiKey = '3f301be7381a03ad8d352314dcc3ec1d';
 let apiKey;
 let requestToken;
@@ -363,7 +363,8 @@ async function pegarLista() {
   console.log(resultado);
 }
 
-{ /* <div style="display: flex;">
+{ 
+/* <div style="display: flex;">
   <div style="display: flex; largura: 300px; altura: 100px; justificar-conteúdo: espaço entre; flex-direction: coluna;">
       <input id="login" placeholder="Login" onchange="preencherLogin(event)">
       <input id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
